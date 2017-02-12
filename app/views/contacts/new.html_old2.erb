@@ -1,0 +1,14 @@
+<p><%= notice %></p>
+
+<%= form_for(@contact) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <br>
+  <%= f.label :email %>
+  <%= f.text_field :email %>
+  <br>
+  <%= f.label :content %>
+  <%= f.text_field :content %>
+  <br>
+  <%= f.submit %>
+<% end %>
